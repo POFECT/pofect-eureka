@@ -4,10 +4,10 @@ spring:
   profiles:
     active: production
 
----
-
 server:
   port: 8761
+
+---
 
 spring:
   config:
@@ -54,8 +54,7 @@ logging:
 
 eureka:
   instance:
-    hostname: localhost
-    # 52.79.114.216
+    hostname: 52.79.114.216
   server:
     enableSelfPreservation: false
     waitTimeInMsWhenSyncEmpty: 5
