@@ -2,7 +2,7 @@ spring:
   application:
     name: service-eureka
   profiles:
-    active: development
+    active: production
 
 ---
 
