@@ -54,7 +54,8 @@ logging:
 
 eureka:
   instance:
-    hostname: 52.79.114.216
+    hostname: localhost
+    # 52.79.114.216
   server:
     enableSelfPreservation: false
     waitTimeInMsWhenSyncEmpty: 5
